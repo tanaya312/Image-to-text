@@ -8,7 +8,7 @@ CORS(app)
 
 
 # calling up google vision json file
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'env\spheric-camera-367713-54a26458427d.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'spheric-camera-367713-54a26458427d.json'
 
 
 # initiate a client
