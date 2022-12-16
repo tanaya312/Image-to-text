@@ -1,7 +1,6 @@
 from flask import Flask, request,jsonify
 from flask_cors import CORS
 import os, io
-import pandas as pd
 from google.cloud import vision
 from google.cloud import vision_v1
 app = Flask(__name__)
